@@ -20,11 +20,11 @@ var qs = require('qs-google-signature');
 var query = {
   address: "New+York",
   client: "clientID",
-  signature: "chaRF2hTJKOScPr-RQCEhZbSzIE=" //this is the signature key provided by Google
+  signature: "vNIXE0xscrmjlyV-12Nj_BvUPaw=" //this is the signature key provided by Google
 }
 
 var queryString = qs.stringify(query, url);
-//=> address=New+York&client=clientID&signature=Qq5Gl6GE-7nkFMlDfx0TACxSKEw=
+//=> address=New%2BYork&client=clientID&signature=WrTAou0zgXHjKwUPdsITPZeMXew=
 ```
 
 License
