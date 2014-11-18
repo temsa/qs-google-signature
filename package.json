@@ -18,6 +18,7 @@
   "author": "Florian Traverse",
   "license": "MIT",
   "dependencies": {
+    "clone": "^0.1.18",
     "debug": "^2.1.0",
     "qs": "^2.3.3"
   },
