@@ -52,7 +52,7 @@ describe('When using an "options" object with a signature', function() {
     });
   });
 
-  describe('with an url taken in real life', function() {
+  describe('and an url taken in real life', function() {
 
     var url =
       "https://maps.googleapis.com/maps/api/distancematrix/json?origins=45.779633%2C4.7951756%7C45.779507%2C4.7954993%7C45.767522962149876%2C4.875612258911133%7C45.77998%2C4.882435&destinations=45.779632568359375%2C4.795175552368164&mode=driving&units=metric&language=fr&avoid=&client=gme-foobar";
