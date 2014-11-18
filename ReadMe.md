@@ -11,6 +11,13 @@ It's especially intended as an almost drop'in replacement for [qs](https://githu
 
 -	[googleMapsUtil](https://github.com/yupitel/googleMapsUtil)
 
+Install
+-------
+
+```
+$> npm install qs-google-signature
+```
+
 Usage
 -----
 
@@ -25,6 +32,21 @@ var query = {
 
 var queryString = qs.stringify(query, url);
 //=> address=New%2BYork&client=clientID&signature=WrTAou0zgXHjKwUPdsITPZeMXew=
+```
+
+Debug
+-----
+
+To display logs, thanks to [debug](https://github.com/visionmedia/debug) use the environment variable "DEBUG" to set that you want to display "qs:signature" logs, e.g. :
+
+```
+$> DEBUG="qs:signature" node myProgram.js
+```
+
+It can also be listed among other things to debug:
+
+```
+$> DEBUG="http,qs:signature,worker" node myProgram.js
 ```
 
 License
