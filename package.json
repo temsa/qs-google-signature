@@ -1,6 +1,6 @@
 {
   "name": "qs-google-signature",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "QS wrapper which Autodetects signature parameter and replace it with a signature according to https://developers.google.com/maps/documentation/business/webservices/auth#digital_signatures",
   "main": "index.js",
   "scripts": {
